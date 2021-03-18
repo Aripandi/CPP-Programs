@@ -25,3 +25,22 @@ int main()
         cout<<"Enter the number less thsn 100: ";
         cin>>number;
     }*/
+    
+     bool done{false};
+    int n{0};
+
+    while(!done)
+    {
+        cout<<"Enter the number b/w 1 to 5:";        ;
+        cin>>n;
+        if(n <1 || n >5){
+            cout<<"Out of Range!"<<endl;
+        }
+        else{
+            cout<<"Thanks";
+            done = true;
+        }
+    }
+
+    return 0;
+}
