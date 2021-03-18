@@ -15,3 +15,13 @@ int main()
         cout<<n<<endl;
         --n;
     }*/
+
+    /*int number;
+    cout<<"Enter the number less thsn 100: ";
+    cin>>number;
+
+    while(number>=100)
+    {
+        cout<<"Enter the number less thsn 100: ";
+        cin>>number;
+    }*/
