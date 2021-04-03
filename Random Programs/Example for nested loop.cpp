@@ -53,5 +53,24 @@ int main()
                 smallest = num;
             cout<<"The smallest number: "<<smallest<<endl;
           }
+        }else if(choice == 'L'||choice == 'l'){
+          if(numbers.size()==0)
+            cout<<"Can't find largest number - No data found"<<endl;
+          else{
+            int largest = numbers.at(0);
+            for(auto num:numbers)
+                if(num>largest)
+                largest = num;
+            cout<<"The Largest number: "<<largest<<endl;
+          }
+        }else if(choice == 'Q' || choice == 'q'){
+          cout<<"Good BYe";
         }
+        else
+            cout<<"Unknown Selection, please try again";
+
+    }while(choice != 'Q' && choice != 'q');
+
+    return 0;
+}
 
