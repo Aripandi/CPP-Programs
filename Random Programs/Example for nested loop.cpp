@@ -38,4 +38,20 @@ int main()
           if(numbers.size() == 0)
             cout<<"Can't Calculate mean - No data found!"<<endl;
           else{
+            int total;
+            for(auto num:numbers)
+                total += num;
+            cout<<"The Mean is "<<total/numbers.size()<<endl;
+           }
+        }else if(choice == 'S' || choice == 's'){
+          if(numbers.size() == 0)
+            cout<<"Can't find Smallest number - No data found"<<endl;
+          else{
+            int smallest = numbers.at(0);
+            for(auto num:numbers)
+                if (num < smallest)
+                smallest = num;
+            cout<<"The smallest number: "<<smallest<<endl;
+          }
+        }
 
