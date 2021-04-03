@@ -18,4 +18,14 @@ int main()
         cout<<"Q-Quit the Process"<<endl;
         cout<<"\nEnter the choice: ";
         cin>>choice;
+        
+        if(choice == 'P' || choice == 'p'){
+            if(numbers.size() == 0)
+              cout<<"[] List is empty";
+            else{
+                cout<<"[";
+                for(auto num:numbers)
+                    cout<<num<<" ";
+                    cout<<"]"<<endl;
+            }
 
