@@ -28,4 +28,14 @@ int main()
                     cout<<num<<" ";
                     cout<<"]"<<endl;
             }
+           }else if(choice == 'A'||choice == 'a'){
+           int num_to_add;
+           cout<<"Enter the number to add: ";
+           cin>>num_to_add;
+           numbers.push_back(num_to_add);
+           cout<<num_to_add<<" added"<<endl;
+        }else if(choice == 'M' || choice == 'm'){
+          if(numbers.size() == 0)
+            cout<<"Can't Calculate mean - No data found!"<<endl;
+          else{
 
