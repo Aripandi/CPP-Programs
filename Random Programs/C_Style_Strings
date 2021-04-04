@@ -23,4 +23,22 @@ int main()
     strcpy(full_name,first_name);
     strcat(full_name, " ");
     strcat(full_name,last_name);
+    
     cout<<"Your Full Name is "<<full_name;*/
+
+    cout<<"Enter your full name: ";
+    cin.getline(full_name,50);
+
+    cout<<"Your full name: "<<full_name<<endl;
+
+    cout<<"______________________________"<<endl;
+
+
+    strcpy(temp,full_name);
+
+    if(strcmp(temp,full_name)== 0)
+        cout<<temp<<" and "<<full_name<<" are same"<<endl;
+    else
+        cout<<temp<<" and "<<full_name<<" are different"<<endl;
+
+    cout<<"_______________________________"<<endl;
