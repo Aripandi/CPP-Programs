@@ -54,4 +54,14 @@ int main() {
 //    cout << "s3 change first letter to 'C': "  << s3 << endl;   //Crank
 //    s3.at(0) = 'P';
 //    cout << "s3 change first letter to 'P': "  << s3 << endl;   // Prank
+
+// Concatenation
+
+//    s3 = "Watermelon";
+//    cout << "\nConcatenation" << "\n------------------------------------------" << endl;
+//
+//    s3 =  s5 + " and " + s2 + " juice";     // Apple and Banana juice
+//    cout << "s3 is now: " << s3 << endl;    // Apple and Banana Juice
+    
+ //  s3 = "nice " + " cold " + s5 + "juice";         // Compiler error
     
