@@ -64,4 +64,26 @@ int main() {
 //    cout << "s3 is now: " << s3 << endl;    // Apple and Banana Juice
     
  //  s3 = "nice " + " cold " + s5 + "juice";         // Compiler error
+ 
+ //  for loop
+//    cout << "\nLooping" << "\n------------------------------------------" << endl;
+//    
+//    s1 = "Apple";
+//    for (size_t i {0}; i < s1.length(); ++i) 
+//        cout << s1.at(i);      //  or s1[i]    Apple
+//    cout << endl;
+//    
+//// Range-based for loop
+//    for (char  c: s1)
+//        cout << c;     // Apple 
+//    cout << endl;
+         
+         
+// Substring
+//    cout << "\nSubstring" << "\n------------------------------------------" << endl;
+//    s1 = "This is a test";
+//
+//    cout << s1.substr(0,4) << endl;	    // This
+//    cout << s1.substr(5,2) << endl;	    // is
+//    cout << s1.substr(10,4) << endl;   	// test
     
