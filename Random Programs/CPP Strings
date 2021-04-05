@@ -18,3 +18,13 @@ int main() {
     cout << s0 << endl;                  // No garbage
     cout << s0.length() << endl;     // empty string
     
+// Initialization
+//    cout << "\nInitialization" << "\n------------------------------------------" << endl;
+//    cout << "s1 is initialized to: " << s1 << endl;
+//    cout << "s2 is initialized to: " << s2 << endl;
+//    cout << "s3 is initialized to: " << s3 << endl;
+//    cout << "s4 is initialized to: " << s4 << endl;
+//    cout << "s5 is initialized to: " << s5 << endl;
+//    cout << "s6 is initialized to: " << s6 << endl;
+//    cout << "s7 is initialized to: " << s7 << endl;
+    
