@@ -87,3 +87,6 @@ int main() {
 //    cout << s1.substr(5,2) << endl;	    // is
 //    cout << s1.substr(10,4) << endl;   	// test
     
+    cout << endl;
+    return 0;
+}
