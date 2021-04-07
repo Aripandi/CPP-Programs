@@ -86,6 +86,14 @@ int main() {
 //    cout << s1.substr(0,4) << endl;	    // This
 //    cout << s1.substr(5,2) << endl;	    // is
 //    cout << s1.substr(10,4) << endl;   	// test
+
+//Erase
+  /*cout<<"Erase"<<"\n_____________"<<endl;
+   s1 = "This is a test";
+
+   s1.erase(0,5);
+
+   cout<<"S1 "<<"is now: "<<s1<<endl;*/
     
     cout << endl;
     return 0;
