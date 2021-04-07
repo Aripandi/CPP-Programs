@@ -94,6 +94,16 @@ int main() {
    s1.erase(0,5);
 
    cout<<"S1 "<<"is now: "<<s1<<endl;*/
+   
+  //getline
+  /* cout<<"Getline"<<"\n___________________"<<endl;
+
+   string fullname;
+
+   cout<<"Enter the Full name: ";
+   getline(cin,fullname);
+
+   cout<<"Your full name is "<<fullname<<endl;*/
     
     cout << endl;
     return 0;
