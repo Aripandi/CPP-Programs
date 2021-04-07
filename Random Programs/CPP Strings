@@ -104,6 +104,23 @@ int main() {
    getline(cin,fullname);
 
    cout<<"Your full name is "<<fullname<<endl;*/
+   
+   
+  //Find
+   /*cout<<"Finf"<<"\n_____________________"<<endl;
+
+   s1 = "The Secret word is boo";
+   string word;
+
+   cout<<"enter the word to find: ";
+   cin>>word;
+
+   size_t position = s1.find(word);
+
+   if(position != string::npos)
+    cout<<"Found "<<word<<" at position: "<< position;
+   else
+    cout<<word<<" is not found"<<endl;*/
     
     cout << endl;
     return 0;
