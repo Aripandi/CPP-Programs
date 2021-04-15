@@ -17,3 +17,10 @@ void handle_largest(const vector<int> &v);
 void handle_find(const vector<int> &v);
 void handle_quit();
 void handle_unknown();
+
+//funtion to find mean, largest and smallest
+void display_list(const vector<int> &v);
+double calculate_mean(const vector<int> &v);
+int get_smallest(const vector<int> &v);
+int get_largest(const vector<int> &v);
+bool find(const vector<int> &v, int target);
