@@ -47,3 +47,21 @@ int main()
             case 'S':
                 handle_smallest(numbers);
                 break;
+            case 'L':
+                handle_largest(numbers);
+                break;
+            case 'F':
+                handle_find(numbers);
+                break;
+            case 'Q':
+                handle_quit();
+                break;
+            default:
+                handle_unknown();
+    }
+   }while (selection != 'Q');
+
+
+    cout<<endl;
+    return 0;
+}
