@@ -24,3 +24,26 @@ double calculate_mean(const vector<int> &v);
 int get_smallest(const vector<int> &v);
 int get_largest(const vector<int> &v);
 bool find(const vector<int> &v, int target);
+
+int main()
+{
+   vector<int> numbers;
+   char selection;
+
+   do{
+    display_menu();
+    selection = get_selection();
+
+    switch(selection){
+            case 'P':
+                handle_display(numbers);
+                break;
+            case 'A':
+                handle_add(numbers);
+                break;
+            case 'M':
+                handle_mean(numbers);
+                break;
+            case 'S':
+                handle_smallest(numbers);
+                break;
