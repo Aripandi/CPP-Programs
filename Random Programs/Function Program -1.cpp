@@ -134,3 +134,21 @@ void handle_find(const vector<int> &v) {
 void handle_quit(){
     cout<<"Goodbye"<<endl;
 }
+
+void handle_unknown(){
+    cout<<"Unknown option - try again"<<endl;
+}
+
+void display_list(const vector<int> &v){
+  cout<<"[";
+  for(auto num:v)
+    cout<<num<<" ";
+  cout<<"]"<<endl;
+}
+
+double calculate_mean(const vector<int> &v){
+   int total{};
+   for(auto num:v)
+    total += num;
+   return static_cast<double>(total)/v.size();
+}
