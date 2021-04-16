@@ -76,3 +76,17 @@ void display_menu() {
         cout << "Q - Quit" << endl;
         cout << "\nEnter your choice: ";
 }
+
+
+char get_selection(){
+     char selection {};
+     cin>>selection;
+     return toupper(selection);
+}
+
+void handle_display(const vector<int> &v){
+    if (v.size() == 0)
+        cout<<"[] - List is empty!"<<endl;
+    else
+        display_list(v);
+}
