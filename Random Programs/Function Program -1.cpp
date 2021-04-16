@@ -90,3 +90,19 @@ void handle_display(const vector<int> &v){
     else
         display_list(v);
 }
+
+
+void handle_add(vector<int> &v){
+    int num_to_add {};
+    cout<<"Enter the number to add: ";
+    cin>>num_to_add;
+    v.push_back(num_to_add);
+    cout<<num_to_add<<" added "<<endl;
+}
+
+void handle_mean(const vector<int> &v){
+    if(v.size() == 0)
+        cout<<"Can't find mean as the list is empty!"<<endl;
+    else
+       cout<<"The mean is "<<calculate_mean(v)<<endl;
+}
