@@ -59,9 +59,20 @@ int main()
             default:
                 handle_unknown();
     }
-   }while (selection != 'Q');
+   }while (selection != 'Q')
 
 
     cout<<endl;
     return 0;
+}
+
+void display_menu() {
+        cout << "\nP - Print numbers" << endl;
+        cout << "A - Add a number" << endl;
+        cout << "M - Display mean of the numbers" << endl;
+        cout << "S - Display the smallest number" << endl;
+        cout << "L - Display the largest number"<< endl;
+        cout << "F - Find a number" << endl;
+        cout << "Q - Quit" << endl;
+        cout << "\nEnter your choice: ";
 }
