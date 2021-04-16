@@ -152,3 +152,25 @@ double calculate_mean(const vector<int> &v){
     total += num;
    return static_cast<double>(total)/v.size();
 }
+
+int get_smallest(const vector<int> &v){
+  int smallest = v.at(0);
+  for(auto num:v)
+    if (num < smallest)
+    smallest = num;
+  return smallest;
+}
+
+int get_largest(const vector<int> &v){
+  int largest = v.at(0);
+  for(auto num:v)
+    if (num < largest)
+    largest = num;
+  return largest;
+}
+bool find(const vector<int> &v, int target){
+    for(auto num:v)
+        if(num == target)
+        return true;
+    return false;
+}
