@@ -120,3 +120,17 @@ void handle_largest(const vector<int> &v){
     else
        cout<<"The largest of the list is: "<<get_largest(v)<<endl;
 }
+
+void handle_find(const vector<int> &v) {
+    int target{};
+    cout << "Enter the number to find: ";
+    cin >> target;
+    if ( find(v, target))
+        cout << target << " was found" << endl;
+    else
+        cout << target << " was not found" << endl;
+}
+
+void handle_quit(){
+    cout<<"Goodbye"<<endl;
+}
