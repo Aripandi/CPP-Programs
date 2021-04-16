@@ -106,3 +106,17 @@ void handle_mean(const vector<int> &v){
     else
        cout<<"The mean is "<<calculate_mean(v)<<endl;
 }
+
+void handle_smallest(const vector<int> &v){
+    if(v.size() == 0)
+        cout<<"Can't find smallest as the list is empty!"<<endl;
+    else
+       cout<<"The smallest of the list is "<<get_smallest(v)<<endl;
+}
+
+void handle_largest(const vector<int> &v){
+    if(v.size() == 0)
+        cout<<"Can't find largest as the list is empty!"<<endl;
+    else
+       cout<<"The largest of the list is: "<<get_largest(v)<<endl;
+}
